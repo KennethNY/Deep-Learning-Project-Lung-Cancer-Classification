@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 IMG_SIZE = (224, 224)
-class_names = ['lung_aca', 'lung_n', 'lung_scc']
+class_names = ['Lung Adenocarcinoma', 'Lung Normal Benign Tissue', 'Lung Squamous Cell Carcinoma']
 
 @st.cache_resource
 def load_model():
